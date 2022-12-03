@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Portfolio User Icon image -->
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="4472089.png"
+    />
+    <!-- remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+     <!-- Font Styles -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+       rel="stylesheet"
+     />
+     <!-- importing stylesheet -->
+     <link rel="stylesheet" href="portfolio.css">
+    <title>Yaswanth-Portfolio</title>
+</head>
+<body>
+    <!-- <div class="heading">
+        <h2>MY PORTFOLIO</h2>
+    </div> -->
+    
+    <!-- Box-1 -->
+    <div class="container">
+        <div class="container__card">
+            <div class="container__face_face1">
+                <div class="container__content1">
+                   <img src="./imag/yashw.jpg" alt="photo">
+                    <h3>About Me</h3>
+                </div>
+            </div>
+            <div class="container__face_face2">
+                <div class="container__content2">
+                    <p>
+                    HI &#128075;,I am Yaswanth Click Below to know me more &#128071;
+                    </p>
+                    <a href="https://poetic-mochi-5a78b2.netlify.app">Know More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Box-2 -->
+        <div class="container__card">
+            <div class="container__face_face1">
+                <div class="container__content1">
+                    <img src="https://www.freeiconspng.com/thumbs/education-png/education-png-1.png" alt="educationpng">
+                    <h3>Education and Resume</h3>
+                </div>
+            </div>
+            <div class="container__face_face2">
+                <div class="container__content2">
+                    <p>
+                       Know About My Education and view my resume
+                       </p>
+                    <a href="https://soft-froyo-27fdbb.netlify.app/">Know More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Box-3 -->
+         <div class="container__card">
+            <div class="container__face_face1">
+                <div class="container__content1">
+                    <img src="https://cdn3d.iconscout.com/3d/premium/thumb/project-task-management-4500578-3735587.png" alt="projectspng">
+                    <h3>My Projects and Certifications </h3>
+                </div>
+            </div>
+            <div class="container__face_face2">
+                <div class="container__content2">
+                   <p>
+                    Explore my Projects and my certifications
+                   </p>
+                   
+                    <a href="https://vocal-rolypoly-8f4fcf.netlify.app">Know More</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Box-4 -->
+        <div class="container__card">
+            <div class="container__face_face1">
+                <div class="container__content1">
+                    <img src="data:image/png;base64,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" alt="socialmediapng">
+                    <h3>Connect with  me on</h3>
+                </div>
+            </div>
+            <div class="container__face_face2">
+                <div class="container__content2">
+                   <p class="container__contact">
+                    <a href="www.linkedin.com/in/yaswanth-sirigiri-9b3515249"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/invites/contact/?i=dynh6wch5kv9&utm_content=3e7p9vh "><i class="fa-brands fa-instagram" ></i></a>
+                    <a href="mailto:yaswanthsv86@gmailcom"><i class="fa-regular fa-at"></i></a>
+                    <a href="https://github.com/yaswanths2002"><i class="fa-brands fa-github" ></i></a>
+
+                   </p>
+                   
+                    <!-- <a href="#" target="_blank">Know More</a> -->
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!-- <div class="links__container">
+        <div class="btn"><a href="#">Like</a></div>
+        <div class="btn"><a href="#" >Follow</a></div>
+        <div class="btn"><a href="#" >Share</a></div>
+    </div> -->
+   
+</body>
+</html>

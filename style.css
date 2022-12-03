@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+body {
+    padding: 14px;
+    text-align: center;
+  }
+  h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    color: #b56576;
+  }
+  .mainpage a{
+    font-size: 30px;
+    text-decoration: none;
+  }
+  
+  table {
+    width: 100%;
+    margin: 20px auto;
+    table-layout: auto;
+  }
+  
+  .fixed {
+    table-layout: fixed;
+  }
+  
+  table,
+  td,
+  th {
+    border-collapse: collapse;
+  }
+  th{
+    font-weight: 50px;
+    font-weight: bolder;
+    background-color: #a8dadc;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: solid 1px;
+    text-align: center;
+  }
+  .resume h2{
+    font-family: 'Poppins', sans-serif;
+  }
+  .resume button{
+    border: 2px dashed black;
+    border-radius: 20px;
+
+  }
+  .resume a{
+    text-decoration: none;
+    color: #70e000;
+    font-size: 30px;
+  }
+  .resume a:hover{
+    background-color: #f5f1ed;
+  }
+  .custom-shape-divider-bottom-1669376398 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1669376398 svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 132px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1669376398 .shape-fill {
+    fill: #9d4edd;
+}
